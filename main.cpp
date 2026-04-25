@@ -166,7 +166,7 @@ public:
     }
 };
 
-// Empty main function - the OJ will provide its own test harness
+// Dummy main function to satisfy linker - will be overridden by OJ test harness
 int main() {
     return 0;
 }
