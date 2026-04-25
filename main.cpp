@@ -165,9 +165,6 @@ public:
     }
 };
 
-// Dummy main function for compilation - OJ will override this
-int main() {
-    return 0;
-}
+
 
 

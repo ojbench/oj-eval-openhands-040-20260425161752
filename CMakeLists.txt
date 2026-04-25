@@ -4,4 +4,5 @@ project(DoublyLinkedList)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(code main.cpp)
+# Create object file since OJ will provide main function
+add_library(code OBJECT main.cpp)
