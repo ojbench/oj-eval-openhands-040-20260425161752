@@ -166,57 +166,8 @@ public:
     }
 };
 
-// Simple test function
+// Empty main function - the OJ will provide its own test harness
 int main() {
-    DoublyLinkedList<int> list;
-    
-    // Test push_front
-    list.push_front(3);
-    list.push_front(2);
-    list.push_front(1);
-    
-    std::cout << "After push_front: ";
-    for (auto it = list.begin(); it != list.end(); ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
-    
-    // Test push_back
-    list.push_back(4);
-    list.push_back(5);
-    
-    std::cout << "After push_back: ";
-    for (auto it = list.begin(); it != list.end(); ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
-    
-    // Test pop_front
-    auto front_val = list.pop_front();
-    if (front_val) {
-        std::cout << "Popped front: " << *front_val << std::endl;
-    }
-    
-    std::cout << "After pop_front: ";
-    for (auto it = list.begin(); it != list.end(); ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
-    
-    // Test pop_back
-    auto back_val = list.pop_back();
-    if (back_val) {
-        std::cout << "Popped back: " << *back_val << std::endl;
-    }
-    
-    std::cout << "After pop_back: ";
-    for (auto it = list.begin(); it != list.end(); ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
-    
-    std::cout << "List size: " << list.size() << std::endl;
-    std::cout << "Is empty: " << (list.empty() ? "true" : "false") << std::endl;
-    
     return 0;
 }
+
