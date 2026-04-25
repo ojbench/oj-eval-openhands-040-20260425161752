@@ -165,8 +165,9 @@ public:
     }
 };
 
-// Dummy main function to satisfy linker - will be overridden by OJ test harness
+// Dummy main function for compilation - OJ will override this
 int main() {
     return 0;
 }
+
 
